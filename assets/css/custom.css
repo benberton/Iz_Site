@@ -1,0 +1,26 @@
+.job {
+    text-align: justify;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.position, .duration {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.position {
+    font-weight: bold;
+}
+
+.duration {
+    font-style: italic;
+    text-align: right;
+    float: right;
+}
+
+.responsibilities p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
