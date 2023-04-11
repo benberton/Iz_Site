@@ -1,8 +1,40 @@
+.title {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    cursor: pointer;
+}
+
+.company {
+    text-align: center;
+    left: 50%;
+    right: 50%;
+    /* border: 1px solid red; */
+}
+
+.caret {
+    font-style: italic;
+    text-align: right;
+    float: right;
+}
+
+.company, .caret {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.company:hover {
+    
+}
+
 .job {
     text-align: justify;
     padding-left: 10vw;
     padding-right: 10vw;
+    animation-name: reveal;
+    animation-duration: 1s;
+    animation-fill-mode: backwards; /* keep the element visible after the animation ends */
 }
+
 
 .position, .duration {
     display: inline-block;
@@ -10,7 +42,7 @@
 }
 
 .position {
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .duration {
@@ -24,3 +56,16 @@
     padding: 0;
     line-height: 1.4;
 }
+
+.hidden {
+    display: none;
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }

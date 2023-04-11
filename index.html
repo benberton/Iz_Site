@@ -4,10 +4,15 @@
 		<title>Isabell Simpson</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+		<!-- js -->
+		<script src="assets/js/custom.js"></script>
+
+		<!-- css -->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/custom.css" />
-
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
 	</head>
 	<body class="is-preload">
 
@@ -62,45 +67,50 @@
 								</header>
 								<ul class="alt">
 									<li>
-										<div class="job">
-											<div class="position">Senior Interface Designer</div>
-											<div class="duration">2005-2007</div>
-											<div class="responsibilities">
-											  <p>Intrinsicly enable optimal core competencies through corporate relationships.</p>
-											  <p>Phosfluorescently implement worldwide vortals and client-focused imperatives.</p>
-											  <p>Conveniently initiate virtual paradigms and top-line convergence.</p>
-											</div>
-										  </div>
-									</li>
-									<li>
-										<h2>Apple</h2>
-										<h3>Specialist · Part-Time</h3>
-										<h4><i>Aug 2022 - Nov 2022</i></h4>
-										<!-- <br>
-										<div style="text-align: left; padding-left:10%;">
-											• 100% NPS for both quarters worked.
-										</div> 
-										<br> -->
-									</li>
-									<!-- <div>
-										<h2>Facebook</h2>
-										<h3>Senior Interface Designer</h3>
-										<h4>2005-2007</h4>
-										<p>Intrinsicly enable optimal core competencies through corporate relationships. Phosfluorescently implement worldwide vortals and client-focused imperatives. Conveniently initiate virtual paradigms and top-line convergence. </p>
-									</div> -->
-									<li>
-										<h2>Eide Bailly LLP</h2>
-										<h3>Tax Accounting Intern</h3>
-										<h4><i>May 2022 - Aug 2022</i></h4>
-										<!-- <br>
-										<div style="text-align: left; padding-left:10%;">
-											<div>• Prepares individual, business, and other types of tax returns for clients under the supervision of professionals.</div>
-											<div>• Assists with special tax projects for clients as needed.</div>
-											<div>• Performs research activities as tax issues arise.</div>
-											<div>• Performs other accounting and tax related duties as assigned by supervisory personnel.</div>
+										<div class="title">
+											<h2 onclick="unhide('Apple')" class="company">Apple</h2>
+											<div class="caret">&#9650;</div>
 										</div>
-										<br> -->
+										<div id="Apple" class="job">
+											<h2 class="position">Specialist · Part-Time</h2>
+											<h3 class="duration">Aug 2022 - Nov 2022</h3>
+											<h4 class="responsibilities">
+											  <p>• 100% NPS for both quarters worked.</p>
+											</h4>
+										</div>
 									</li>
+
+									<li>
+										<div class="title">
+											<h2 onclick="unhide('Eide_Bailly')" class="company">Eide Bailly LLP</h2>
+											<div class="caret">&#9650;</div>
+										</div>
+										<div id="Eide_Bailly" class="job">
+											<h2 class="position">Tax Accounting Intern</h2>
+											<h3 class="duration">May 2022 - Aug 2022</h3>
+											<h4 class="responsibilities">
+												<p>• Prepares individual, business, and other types of tax returns for clients under the supervision of professionals.</p>
+												<p>• Assists with special tax projects for clients as needed.</p>
+												<p>• Performs research activities as tax issues arise.</p>
+												<p>• Performs other accounting and tax related duties as assigned by supervisory personnel.</p>
+											</h4>
+											</div>
+									</li>
+						
+									<li>
+										<h2 onclick="unhide('CycleBar')" class="company">CycleBar</h2>
+										<div id="CycleBar" class="job">
+											<h2 class="position">Sales Associate</h2>
+											<h3 class="duration">May 2021 - Aug 2021</h3>
+											<h4 class="responsibilities">
+												<p>• Prepares individual, business, and other types of tax returns for clients under the supervision of professionals.</p>
+												<p>• Assists with special tax projects for clients as needed.</p>
+												<p>• Performs research activities as tax issues arise.</p>
+												<p>• Performs other accounting and tax related duties as assigned by supervisory personnel.</p>
+											</h4>
+											</div>
+									</li>
+
 									<li>
 										<h2>CycleBar</h2>
 										<h3>Sales Associate</h3>
