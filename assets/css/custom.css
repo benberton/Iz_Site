@@ -1,72 +1,81 @@
 .title {
     padding-left: 10vw;
     padding-right: 10vw;
-    cursor: pointer;
+    /* cursor: pointer; */
     text-align: left;
     font-size: 2.4vh;
-}
-
-.company {
+  }
+  
+  .company {
+    cursor: pointer;
+    font-size: 3vh;
     text-align: center;
+    width: 100%;
     left: 50%;
     right: 50%;
-}
-
-.caret {
+  }
+  
+  .caret {
     font-style: italic;
     text-align: right;
     float: right;
-}
-
-.company, .caret {
+  }
+  
+  .company,
+  .caret {
     display: inline-block;
     vertical-align: middle;
-}
-
-.company:hover {
-    
-}
-
-.job {
+  }
+  
+  .company:hover {
+    /* Add any hover styles here */
+  }
+  
+  .job {
+    font-size: 2vh;
     text-align: justify;
     padding-left: 10vw;
     padding-right: 10vw;
     animation-name: reveal;
     animation-duration: 1s;
     animation-fill-mode: backwards; /* keep the element visible after the animation ends */
-}
-
-
-.position, .duration {
+  }
+  
+  .position,
+  .duration {
+    font-size: 3vh;
     display: inline-block;
     vertical-align: middle;
-}
-
-.position {
+  }
+  
+  .position {
     /* font-weight: bold; */
-}
+  }
+  
+  .duration {
+    font-size: 2.5vh;
 
-.duration {
     font-style: italic;
     text-align: right;
     float: right;
-}
-
-.responsibilities p {
+  }
+  
+  .responsibilities p {
+    font-size: 2vh;
     margin: 0;
     padding: 0;
     line-height: 1.4;
-}
-
-.hidden {
+  }
+  
+  .hidden {
     display: none;
-}
-
-@keyframes reveal {
+  }
+  
+  @keyframes reveal {
     0% {
-        opacity: 0;
+      opacity: 0;
     }
     100% {
-        opacity: 1;
+      opacity: 1;
     }
   }
