@@ -38,6 +38,11 @@
   animation-fill-mode: backwards;
 }
 
+.position,
+.duration {
+    /* text-align: left; Adjusted for mobile */
+  float: none; /* Adjusted for mobile */
+}
 
 .position {
   font-size: 3vh;
@@ -73,6 +78,7 @@
   .job {
     padding-left: 3vw;
     padding-right: 3vw;
+    text-align: left;
   }
 
   .company,
@@ -84,7 +90,7 @@
 
   .position,
   .duration {
-    text-align: right;
+    text-align: left;
   }
 
   .caret {

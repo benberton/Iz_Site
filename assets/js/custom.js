@@ -10,3 +10,13 @@ function unhide(job_ID)
     }
       
 }
+
+function createEmail()
+{
+
+    let name = document.getElementById("name").value
+    let email = document.getElementById("email").value
+    let subject = document.getElementById("subject").value
+    let message = document.getElementById("message").value
+    window.open("mailto:isimpson2@zagmail.gonzaga.edu" + "?subject=" + subject + " - " + name + "&body=" + message + " Email: " + email);
+}
